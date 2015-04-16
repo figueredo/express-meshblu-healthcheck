@@ -1,6 +1,6 @@
 {
   "name": "express-meshblu-healthcheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware for Meshblu healthcheck",
   "main": "index.js",
   "scripts": {
@@ -28,7 +28,6 @@
     "sinon-chai": "^2.7.0"
   },
   "dependencies": {
-    "coffee-script": "^1.9.1",
-    "request": "^2.55.0"
+    "coffee-script": "^1.9.1"
   }
 }
