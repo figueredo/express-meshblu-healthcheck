@@ -1,10 +1,12 @@
 sudo: false
 language: node_js
-node_js:
-  - '0.10'
+node_js: '8'
+before_deploy:
+- npm run build
 deploy:
   - provider: npm
     email: serveradmin@octoblu.com
+    skip_cleanup: true
     api_key:
       secure: "lpsxtT0AooVhy8B444HbfFyhOADNUCXnzxwewQzLts1Pi7cFDW8viAf01pK3MYNaKytTtyl9Hm4FelzFir0On9S+9iOOPxytUO4fVETM0MalGzivp64Io8j+1LsUuRQO5InZvAqBJ/yRf3jUWWpJFCnWxelItCcrwNudiRRhbhk="
     on:
