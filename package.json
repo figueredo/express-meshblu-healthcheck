@@ -1,11 +1,11 @@
 {
   "name": "express-meshblu-healthcheck",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Express middleware for Meshblu healthcheck",
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha",
-    "build": "coffee --compile --output dist/ --map src/*.coffee"
+    "build": "coffee --compile --output dist/ --map *.coffee"
   },
   "repository": {
     "type": "git",
